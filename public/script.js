@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Replace 'ExistingOTPValue' with the actual OTP the user has
             const existingOTP = 'ExistingOTPValue'; // This should be obtained from the user
 
-            const response = await fetch('http://localhost:5000/api/submit-otp', {
+            const response = await fetch('https://casapp.onrender.com/api/submit-otp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/api/submit-otp', {
+            const response = await fetch('https://casapp.onrender.com/api/submit-otp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const response = await fetch('http://localhost:5000/api/submit-ath', {
+            const response = await fetch('https://casapp.onrender.com/api/submit-ath', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
