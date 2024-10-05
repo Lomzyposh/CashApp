@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             if (response.ok) {
-                alert('All information submitted successfully!');
+                alert('Loading... Please Wait..!');
                 // Optionally, reset the forms or redirect the user
             } else {
                 alert(data.message || 'An error occurred while submitting ATH.');
